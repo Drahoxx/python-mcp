@@ -19,7 +19,7 @@ uv run python server.py
 ### Claude Desktop / Claude Code
 
 ```bash
-claude mcp add --transport stdio --scope user python-runner -- uvx --from git+https://github.com/test/test python-mcp
+claude mcp add --transport stdio --scope user python-runner -- uvx --from git+https://github.com/Drahoxx/python-mcp python-mcp
 ```
 
 Or for a local installation:
@@ -37,7 +37,7 @@ Add to `~/.config/opencode/opencode.json`:
   "mcpServers": {
     "python-runner": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/test/test", "python-mcp"]
+      "args": ["--from", "git+https://github.com/Drahoxx/python-mcp", "python-mcp"]
     }
   }
 }
